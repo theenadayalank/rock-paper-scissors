@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Rock Paper Scissors Game</title>
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+</head>
+<body>
+  <section class="game-container">
+      <header>
+        <h1>Rock Paper Scissors Game</h1>
+      </header>
+        <div class="intro">
+          <button id="player-vs-comp">Player VS Computer</button>
+          <button id="comp-vs-comp">Computer VS Computer</button>
+        </div>
+        <div class="game fade-out">
+          <h3>Please select your choice</h3>
+          <div class="choice-list">
+            <img src="/images/rock.png" alt="rock">
+            <img src="/images/paper.png" alt="paper">
+            <img src="/images/scissors.png" alt="scissors">
+          </div>
+        </div>
+        <div class="choosing fade-out">
+          <div class="player-hand">
+            <h2>Player</h2>
+            <img src="/images/rock.png" alt="">
+          </div>
+          <div class="computer-hand">
+            <h2>Computer</h2>
+            <img src="/images/rock.png" alt="">
+          </div>
+        </div>
+        <div class="result fade-out">
+          <h2>Result</h2>
+          <div class="result-actions">
+            <button id="play-again-button">Play Again</button>
+            <button id="change-mode-button">Change Mode</button>
+          </div>
+        </div>
+      <footer>
+        <div>
+          Made with ❤️ &copy; 
+          <a href="https://www.theenadayalan.me" target="_blank">Theenadayalan</a> 
+        </div>
+      </footer>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
