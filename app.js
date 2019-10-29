@@ -145,10 +145,12 @@
     console.log('Game selection preserved (isPlayerVsComp)', this.isPlayerVsComp);
 
     // Hiding the intro section
+    introSection.classList.remove('fade-in');
     introSection.classList.add('fade-out');
     
     // Showing the player's move choosing section
-    gameSection.classList.remove('fade-out')
+    gameSection.classList.remove('fade-out');    
+    gameSection.classList.add('fade-in');
   });
 
   // Computer VS Computer Game
